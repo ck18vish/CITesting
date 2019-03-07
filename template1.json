@@ -52,7 +52,7 @@
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressName": "myPublicIP",
     "vmName": "SimpleWinVM",
-    "virtualNetworkName": "MyVNET",
+    "virtualNetworkName": "demoVNET",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
   },
   "resources": [
